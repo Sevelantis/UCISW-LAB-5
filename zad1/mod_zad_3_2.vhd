@@ -30,7 +30,7 @@ Y <= WE(1);
 Z <= WE(0);
 
 WY(3) <= (W AND (X OR (Y AND Z))) OR ((NOT W) AND (NOT X) AND ((NOT Z) OR (NOT Y)));
-
+WY(2) <= (W AND NOT Z) OR (W AND NOT Y) OR (W AND NOT X) OR (NOT W AND X AND Y AND Z);
 WY(1) <= ((NOT X) AND (NOT Y) AND (NOT Z)) OR (X AND (Z OR Y));
 WY(0) <= NOT Y;
 

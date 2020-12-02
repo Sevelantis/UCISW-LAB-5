@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/test_zad_3_1_isim_beh.exe" -prj "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/test_zad_3_1_beh.prj" "work.test_zad_3_1" 
+-intstyle "ise" -incremental -lib "secureip" -o "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/test_zad_3_2_isim_beh.exe" -prj "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/test_zad_3_2_beh.prj" "work.test_zad_3_2" 
