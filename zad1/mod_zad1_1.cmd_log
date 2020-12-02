@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.xst" -ofn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.syr" 
+xst -intstyle ise -ifn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.xst" -ofn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.syr" 
+xst -intstyle ise -ifn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.xst" -ofn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.syr" 
+xst -intstyle ise -ifn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.xst" -ofn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.syr" 
+xst -intstyle ise -ifn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.xst" -ofn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 4/zad1_1/zad1/mod_zad1_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "mod_zad1_1.ngc" mod_zad1_1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mod_zad1_1_map.ncd mod_zad1_1.ngd mod_zad1_1.pcf 
+par -w -intstyle ise -ol high -mt off mod_zad1_1_map.ncd mod_zad1_1.ncd mod_zad1_1.pcf 
